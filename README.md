@@ -14,6 +14,18 @@ This project focuses on identifying RNA-binding proteins (RBPs), such as **Musas
 
 ## **Project Plan and Milestones**
 
+# RBP Project Workflow
+
+```mermaid
+graph TD
+    A[Collect RNA-Seq Data] --> B[Preprocess RNA-Seq Data]
+    B --> C[Run RNA Motif Search]
+    C --> D[Analyze RNA-Binding Proteins]
+    D --> E[Run Differential Expression Analysis]
+    E --> F[Generate Reports]
+    F --> G[Push Results to GitHub]
+```
+
 ### **1. Set Up the Development Environment**
 - Create a project directory with the following structure:
 rbp_project/ ├── data_raw/ # Raw RNA-Seq and transcript data 
